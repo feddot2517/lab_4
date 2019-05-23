@@ -1,5 +1,3 @@
-package system;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -26,7 +24,7 @@ public class FileApp {
             }
         }
         catch(Exception e){
-            e.printStackTrace();
+            System.out.println("foo");
         }
     }
 }
